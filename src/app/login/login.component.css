@@ -402,4 +402,39 @@
   .form-title {
     font-size: 16px;
   }
+
 }
+
+} 
+  .error-message {
+    background: rgba(255, 107, 107, 0.2);
+    border: 1px solid #FF6B6B;
+    color: #FF6B6B;
+    padding: 0.75rem;
+    border-radius: 6px;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  /* Demo Credentials Styles */
+  .demo-credentials {
+    background: rgba(0, 191, 255, 0.1);
+    border: 1px solid rgba(0, 191, 255, 0.3);
+    border-radius: 6px;
+    padding: 1rem;
+    margin: 1rem 0;
+    text-align: center;
+  }
+  
+  .demo-credentials p {
+    color: #00BFFF;
+    font-size: 13px;
+    margin: 0.25rem 0;
+    line-height: 1.4;
+  }
+  
+  .demo-credentials p:first-child {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
