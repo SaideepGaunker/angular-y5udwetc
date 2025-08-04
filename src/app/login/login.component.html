@@ -139,7 +139,17 @@
           >
         </div>
         
+        <div class="error-message" *ngIf="errorMessage()">
+          {{ errorMessage() }}
+        </div>
+        
         <button type="submit" class="login-submit-btn">LOG IN</button>
+        
+        <div class="demo-credentials">
+          <p><strong>Demo Credentials:</strong></p>
+          <p>Email: admin@bodhami.com</p>
+          <p>Password: admin123</p>
+        </div>
         
         <a href="#" class="forgot-password">Forgot Password ?</a>
       </form>
@@ -156,3 +166,4 @@
   </main>
 </div>
  
+
